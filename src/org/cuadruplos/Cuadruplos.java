@@ -12,13 +12,10 @@ public class Cuadruplos {
     private ArrayList<String> resultados = new ArrayList<>();
     private String[][] matrizCuadruplos;
 
-    public Cuadruplos(String expresion) {
-        setExpresion(expresion);
-    }
+    public Cuadruplos(String expresion) {setExpresion(expresion);}
 
-    public void setExpresion(String expresion) {
-        this.expresion = expresion;
-    } // Recibe una expresion prefija
+    public void setExpresion(String expresion) {this.expresion = expresion;} // Recibe una expresion prefija
+
     public void resolverCuadruplos() {
         char c;
         int i = 0;

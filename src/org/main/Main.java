@@ -22,16 +22,13 @@ public class Main {
 
         String[] encabezadosCol = {"op", "arg1", "arg2", "Resultado"};
 
-        for (String s: encabezadosCol) {
-            System.out.printf("%-5s", s);
-        }
+        for (String s: encabezadosCol) System.out.printf("%-5s", s);
 
         System.out.println();
 
         for (int i = 0; i < cuadruplos.length; i++) {
-            for (int j = 0; j < cuadruplos[0].length; j++) {
+            for (int j = 0; j < cuadruplos[0].length; j++)
                 System.out.printf("%-5s", cuadruplos[i][j]);
-            }
             System.out.println();
         }
     }
